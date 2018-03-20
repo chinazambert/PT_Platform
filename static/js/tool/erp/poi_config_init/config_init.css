@@ -1,0 +1,30 @@
+.poi-info{
+	display: flex;
+  	flex-direction: column;
+  	padding-left: 250px;
+}
+
+[id^=tenant-id]{
+	width: 300px;
+	height: 35px;
+	font-size: 15px;
+}
+[id^=poi-id]{
+	width: 300px;
+	height:35px;
+	font-size: 15px;
+}
+
+.poi-info div{
+	padding: 5px 5px;
+}
+
+[id^=init-btn]{
+	background: gray;
+	border: 0px;
+	width: 300px;
+	height: 35px;
+	color: white;
+	font-size: 15px;
+	text-align: center
+}
